@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@tailwind utilities;
 
-.auth-page{
-    height: 100vh;
-    background: no-repeat center center fixed;
-    background-color:rgb(245, 230, 239);
+
+/* Your custom styles */
+.auth-page {
+  @apply h-screen bg-[rgb(245,230,239)] bg-no-repeat bg-center bg-fixed;
 }
